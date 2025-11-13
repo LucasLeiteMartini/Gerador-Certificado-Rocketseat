@@ -1,0 +1,104 @@
+.custom-card {
+  max-width: 672px;
+  gap: 20px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  padding: 32px;
+  gap: 32px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0;
+  color: #1a2856;
+  margin-bottom: 20px;
+}
+
+.atividade-group {
+  margin-bottom: 32px;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: #1a2856;
+}
+
+.item-list {
+  width: 100%;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 16px;
+  gap: 12px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-list hr {
+  all: unset;
+  display: block;
+  height: 1px;
+  background-color: #e2e8f0;
+  margin: 12px 0;
+}
+
+.remove-btn i {
+  padding: 5.75px;
+  color: #e95f5f;
+  font-size: 12.5px;
+  cursor: pointer;
+}
+
+.remove-btn i:hover {
+  background-color: #e2e8f0;
+  color: #d71d1d;
+  border-radius: 4px;
+}
+
+.custom-input {
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+
+.custom-input:focus {
+  border: 1px solid #3b5ac2;
+  box-shadow: none;
+}
+
+.custom-input-group:has(input:focus) label {
+  color: #3b5ac2;
+}
+
+.error-message {
+  width: 100%;
+  gap: 4px;
+  margin-top: 8px;
+  color: #d71d1d;
+}
+
+.error-message i {
+  font-size: 16px;
+}
+
+.error-message p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0;
+  vertical-align: middle;
+}
+
+.custom-input-group:has(.error-message)>label {
+  color: #d71d1d;
+}
